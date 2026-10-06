@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "active-days": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "--package=github:Poobalan1210/my-kiro-univ-project", "active-days-mcp"]
+    }
+  }
+}

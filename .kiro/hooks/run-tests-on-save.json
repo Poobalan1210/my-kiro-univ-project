@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run tests on save",
+      "trigger": "PostFileSave",
+      "description": "Runs the full node:test suite (examples, properties, MCP stdio) whenever a .js file under src/ or test/ is saved, and shows the pass/fail summary.",
+      "matcher": "(^|/)(src|test)/[^/]+\\.js$",
+      "action": {
+        "type": "command",
+        "command": "node --test 2>&1 | tail -n 9",
+        "timeout": 60
+      }
+    }
+  ]
+}

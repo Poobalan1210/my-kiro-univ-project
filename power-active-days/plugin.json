@@ -1,0 +1,12 @@
+{
+  "name": "active-days",
+  "version": "1.0.0",
+  "description": "Count the distinct days a git repository was committed to, in UTC or IST, through an MCP tool, instead of counting commits",
+  "author": {
+    "name": "Poobalan1210",
+    "url": "https://github.com/Poobalan1210"
+  },
+  "homepage": "https://github.com/Poobalan1210/my-kiro-univ-project",
+  "repository": "https://github.com/Poobalan1210/my-kiro-univ-project",
+  "keywords": ["active days", "commit days", "days worked", "git activity", "streak", "consistency", "IST", "Asia/Kolkata", "default branch"]
+}
